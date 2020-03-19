@@ -3,49 +3,98 @@
 }
 
 
-.status_bar {
-	width: 100%;
+/*establishes the global font*/
+.body {
+    font-family: amaranth;
+    font-style: normal;
+    font-weight: 400;
 }
 
+/* nav bar*/
+/*start of schedule title and filter. should remain static during scroll*/
+.status_bar {
+  width: 100%;
+}
+.top {
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  height: 12%;
+}
+.back {
+  float: left;
+  padding-left: 3%;
+}
 .nav_bar {
+
 	width: 100%;
-	height: 10%;
 	color: whitesmoke;
 	background-color: green;
-	padding-bottom: 5%;
-	padding-top: 5%;
+  padding-top: 3%;
 	text-align: center;
+  font-size: 150%;
 }
 
-
-
+#sched {
+  padding-bottom: 3%;
+}
 .filter {
-	display: flex;
-    width: 100%
-	float: right;
+    width: 100%;
     background-color: darkgreen;
     color: darkgray;
-    font-size: 90%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    font-size: 95%;
+    padding-bottom: 8%;
 }
 
-.location {
+.container {
+  background-color: #FDF6C5;
+  padding-top: 30%;
+  width: 100%;
+}
+
+/* Allows responsive resizing of bus number*/
+.bus_number {
+  width: 70%;
+}
+
+.intersection {
 	text-align: right;
 	padding-right: 3%;
+	padding-top: 3%;
 	float: right;
 	width: 50%;
 }
+
+
 .sort {
 	padding-left: 3%;
 	width: 33%;
+  padding-top: 3%;
+	float: left;
+}
+/*end of schedule title and filter. should remain static during scroll*/
+
+.listing {
+  font-size: 130%;
+	background-color:#FDF6C5;
+	display: table;
+	width: 100%;
+		padding-top:3%;
+	padding-bottom: 3%;
+  padding-left: 5%;
 }
 
-.arriveone, .fortythree {
-	display: inline-block;
-	
+
+
+.fortythree, .fifteen, .five, .one, .three, .seventy {
+	width: 25%;
+	float:left;
 }
 
-.arriveone {
-	text-align: center;
+
+.arrivefortythree, .arrivefifteen, .arrivefive, .arriveone, .arrivethree, .arriveseventy {
+	float:left;
+	width: 75%;
+  padding-left: 5%;
+  padding-top: 2%;
 }
