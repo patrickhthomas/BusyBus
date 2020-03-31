@@ -3,12 +3,7 @@
 }
 
 
-/*establishes the global font*/
-.body {
-    font-family: amaranth;
-    font-style: normal;
-    font-weight: 400;
-}
+
 
 /* nav bar*/
 /*start of schedule title and filter. should remain static during scroll*/
@@ -16,11 +11,15 @@
   width: 100%;
 }
 .top {
+  font-family: helvetica;
+  z-index: 5;
   width: 100%;
   position: fixed;
-  background-color: white;
+  background-color: green;
   height: 12%;
 }
+
+
 .back {
   float: left;
   padding-left: 3%;
@@ -30,41 +29,46 @@
 	width: 100%;
 	color: whitesmoke;
 	background-color: green;
-  padding-top: 3%;
-	text-align: center;
+  padding-bottom: 2%;
+  font-weight: medium;
   font-size: 150%;
 }
 
 #sched {
   padding-bottom: 3%;
+  padding-left: 32%;
 }
 .filter {
     width: 100%;
     background-color: darkgreen;
-    color: darkgray;
-    font-size: 95%;
-    padding-bottom: 8%;
+    color: white;
+    font-size: 90%;
+    font-weight: lighter;
+    padding-bottom: 10%;
 }
 
 .container {
   background-color: #FDF6C5;
-  padding-top: 30%;
+  padding-top: 37%;
+  padding-bottom: 20%;
   width: 100%;
 }
 
-/* Allows responsive resizing of bus number*/
-.bus_number {
-  width: 70%;
-}
+
 
 .intersection {
-	text-align: right;
-	padding-right: 3%;
+	padding-left: 20%;
 	padding-top: 3%;
-	float: right;
-	width: 50%;
+	float: left;
+	width: 60%;
 }
 
+#locationarrow {
+  display: block;
+  margin: auto;
+  float: left;
+
+}
 
 .sort {
 	padding-left: 3%;
@@ -75,6 +79,7 @@
 /*end of schedule title and filter. should remain static during scroll*/
 
 .listing {
+  font-family: helvetica;
   font-size: 130%;
 	background-color:#FDF6C5;
 	display: table;
@@ -86,15 +91,74 @@
 
 
 
+
 .fortythree, .fifteen, .five, .one, .three, .seventy {
-	width: 25%;
 	float:left;
+  border-radius: 50%;
+  width: 15%;
+
+  padding: 8px;
+
+  background: green;
+    color: white;
+    text-align: center;
+
+    font: 32px Arial, sans-serif;
 }
 
 
-.arrivefortythree, .arrivefifteen, .arrivefive, .arriveone, .arrivethree, .arriveseventy {
-	float:left;
+.arrive {
+  display: table;
+  float: left;
 	width: 75%;
-  padding-left: 5%;
+  padding-left: 8%;
   padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+#pin {
+  padding-left: 2%;
+  padding-right: 2%;
+  height: 1em;
+}
+
+#clock {
+  width: 16px;
+}
+
+#ne, #s, #n {
+  position: absolute;
+  left: 75%;
+  width: 17%;
+  padding-bottom: 5%;
+}
+
+
+.navbottom {
+  background-color: darkgreen;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.navbottom a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#star {
+  float: right;
+  width: 30%;
+  position: relative;
+  left: 30%;
+}
+
+#home {
+  position: relative;
+  left: 150%;
 }
