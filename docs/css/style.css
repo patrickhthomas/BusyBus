@@ -308,3 +308,8 @@ hr {
   width: 85%;
   display: block;
 }
+
+body {
+  width: 375px;
+  height: 667px;
+}
