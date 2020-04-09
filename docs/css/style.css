@@ -2,7 +2,10 @@
   box-sizing: border-box;
 }
 
-
+ body {
+  width: 375px;
+  
+ }
 
 
 /* nav bar*/
@@ -15,7 +18,6 @@
 .top {
   font-family: helvetica;
   z-index: 1;
-  width: 100%;
   position: fixed;
   background-color: #248C43;
   height: 12%;
@@ -51,6 +53,7 @@
   padding-top: 28%;
   padding-bottom: 17%;
   width: 100%;
+
 }
 
 .filter img {
@@ -228,8 +231,8 @@
   background-color: #248C43;
   position: fixed;
   bottom: 0;
-  width: 100%;
   box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
 }
 .navbottom a {
   float: left;
@@ -307,9 +310,4 @@
 hr {
   width: 85%;
   display: block;
-}
-
-body {
-  width: 375px;
-  height: 667px;
 }
