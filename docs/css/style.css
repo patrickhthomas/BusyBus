@@ -4,7 +4,7 @@
 
  body {
   width: 375px;
-  
+  height: 667px;
  }
 
 
@@ -32,7 +32,7 @@
 }
 .nav_bar {
 
-	width: 100%;
+	width: 375px;
 	color: whitesmoke;
 	background-color: #248C43;
   padding-bottom: 2%;
@@ -54,6 +54,10 @@
   padding-bottom: 17%;
   width: 100%;
 
+}
+
+.height {
+  height: 667px;
 }
 
 .filter img {
@@ -232,7 +236,7 @@
   position: fixed;
   bottom: 0;
   box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
-  width: 100%;
+  width: 375px;
 }
 .navbottom a {
   float: left;
@@ -311,3 +315,4 @@ hr {
   width: 85%;
   display: block;
 }
+
