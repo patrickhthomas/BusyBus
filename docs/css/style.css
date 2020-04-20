@@ -233,87 +233,55 @@
 
 
 .navbottom {
+  float: left;
   background-color: #248C43;
   position: fixed;
   bottom: 0;
   box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
   width: 375px;
-}
-.navbottom a {
-  float: left;
-  display: inline;
-  color: #3CB255;
-  padding: 5px 16px;
-  text-decoration: none;
-  font-size: 17px;
+  height: 4em;
 }
 
-#star {
-  margin-right: 1em;
-  margin-left: 1.5em;
+.navbottom li {
+  display: block;
+  width: 25%;
   float: left;
-  width: 2em;
+  padding-left: 7%;
+
+}
+
+.navbottom p {
   position: relative;
+  padding-top: 1.8em;
+  padding-right: .8em;
+    color: white;
+  font-family: helvetica;
 }
 
-#home {
-  width: 2em;
-  margin-left: .5em;
-    margin-right: 1em;
-
-  float: left;
-
+.navbottom img {
   position: relative;
-  
-}
-
-#search {
-    margin-right: 1em;
-    margin-left: .2em;
-
+  max-width: 2.1em;
   float: left;
-  width: 2em;
-  position: relative;
+  padding-top: .4em;
+  margin-left: 10%;
+
 }
 
 #maps {
-  float: left;
-  margin-left: .7em;
-  width: 1.4em;
-  position: relative;
-}
-
-
-
-#fv, #hm, #se, #ma {
-  color: white;
-  font-family: helvetica;
-  bottom: .3em;
-  position: relative;
-  display: inline;
-  float: left;
-}
-#fv {
-  margin-left: 1.5em;
-  margin-right: .4em;
-}
-
-#hm {
-  margin-left: 1.9em;
-  margin-right: 1em;
-}
-
-#se {
-  margin-left: 1.8em;
-  margin-right: 1.3em;
+  max-width: 1.6em;
 }
 
 #ma {
-  margin-left: 1.6em;
-  margin-right: 1.5em;
+  margin-left: .25em;
 }
-hr {
-  width: 85%;
-  display: block;
+#se {
+  margin-left: -.17em;
 }
 
+#hm {
+  margin-left: .22em;
+}
+
+#fv {
+  margin-left: -.3em;
+}
